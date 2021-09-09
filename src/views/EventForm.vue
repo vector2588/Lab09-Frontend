@@ -36,12 +36,8 @@
 </template>
 <script>
 import EventService from '@/services/EventService.js'
-import BaseInput from '@/components/BaseInput'
 export default {
   inject: ['GStore'],
-  components: {
-    BaseInput
-  },
   data() {
     return {
       event: {
